@@ -1,0 +1,65 @@
+:root {
+    --main-color: #3597ff; 
+    --secondary-background-color: #f3f9ff;
+    --discord-border-color: #d7eaff;
+    --quaternary-color: #989ca2;
+    --quinary-color: #f0f0f1;
+    --button-border-color: #e3e4e6;
+    --text-color: #1a232f;
+    --white-text-color: #fff;
+}
+
+body {
+width: 100%;
+font-family: "Open Sans", sans-serif;
+overflow-x: hidden;
+color: var(--text-color);
+margin: 0;
+padding: 0;
+}
+
+.container {    
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1320px;
+height: 53px;
+margin: 0 6.75rem;  /*108px*/
+padding: 0 0.75rem;    /* 12px */ 
+}
+
+.d-flex {
+display: flex;
+}
+
+.align-items-center {
+align-items: center;
+}
+
+.flex-dir-column {
+flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+a:hover,
+a:active {
+  color: var(--main-color);
+}
+
+span {
+    font-weight: 700;
+  }
+
+ul {
+  height: 53px;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    list-style-type: none;
+}
+
