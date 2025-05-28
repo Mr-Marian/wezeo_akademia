@@ -1,0 +1,40 @@
+.first {
+    display: block;
+    background: #3597ff;
+    height: 440px;
+    width: 100%;
+    
+}
+
+
+.section1-box {
+    max-height: 440px;
+}
+
+
+.main-block {
+    display: block;
+}
+
+
+
+.main-heading {
+    color: var(--white-text-color);
+    font-weight: 100;
+}
+
+.main-home {
+    
+    position: absolute;
+    height: 418px;
+    top: 153px;
+    right: 225px;
+}
+
+.circle {
+    position: absolute;
+    height: 479px; /*478px */
+    top: 331px;
+    right: -239px;
+    z-index: 1;
+}

@@ -4,8 +4,8 @@
     --discord-border-color: #d7eaff;
     --quaternary-color: #989ca2;
     --quinary-color: #f0f0f1;
-    --button-border-color: #e3e4e6;
-    --text-color: #1a232f;
+    --button-border-color: #e3e4e6; 
+    --text-color: #1a232f; 
     --white-text-color: #fff;
 }
 
@@ -18,27 +18,21 @@ body {
   padding: 0;
 }
 
+body::-webkit-scrollbar {
+    display: none; 
+  }
+
 .container {    
 display: flex;
+flex-wrap: inherit;
 justify-content: center;
 align-items: center;
-width: 1320px;
+width: 1296px;
 height: 53px;
-margin: 0 6.75rem;  /*108px*/
+margin: 0 auto;
 padding: 0 0.75rem;    /* 12px */ 
 }
 
-.d-flex {
-display: flex;
-}
-
-.align-items-center {
-align-items: center;
-}
-
-.flex-dir-column {
-flex-direction: column;
-}
 a {
     text-decoration: none;
     color: var(--text-color);
@@ -54,12 +48,10 @@ span {
   }
 
 ul {
-  height: 53px;
-    margin: 0;
     padding: 0;
 }
   
 li {
     list-style-type: none;
+    min-width: fit-content;
 }
-

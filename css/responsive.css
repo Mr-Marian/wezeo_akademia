@@ -1,15 +1,14 @@
- 
-@media screen and (max-width: 1399px) {
+@media (max-width: 1399.98px) {
     .container {
-        background: yellowgreen;
-        width: 1160px;
-        margin: 0 auto;
+        width: 1116px; /* 1140px = 71.25rem */
+    }
+
+    .navbar-collapse,
+    .navbar-nav-scroll {
+        overflow: visible;
     }
 
     .menu {
-        background: yellow;
-        margin: 400px;
+        margin-right: 0.313rem; /* 5px = 0.313rem */
     }
-    
 }
-
