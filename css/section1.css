@@ -8,12 +8,20 @@
 
 
 .section1-box {
-    max-height: 440px;
+    height: 440px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 
 .main-block {
-    display: block;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 526px;
+    margin: 48px 0;
+    padding: 48px 12px;
 }
 
 

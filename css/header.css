@@ -47,12 +47,15 @@ border-bottom: 1px solid var(--discord-border-color);
 /* Navbar */
 
 nav {
+    border: 2px solid black;
     display: flex;
+    justify-content: left;
     padding: 0.5rem 0;  /* 8px = 0.5rem */
     height: 4rem;   /* 64px = 4rem */
 }
 
 .navbar-brand {
+    border: 2px solid red;
     margin-right: 16px; /* 16px = 1rem */
     padding: 5px 0;    /* 5px = 0.313rem */
 }
