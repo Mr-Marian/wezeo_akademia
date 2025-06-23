@@ -11,4 +11,12 @@
     .menu {
         margin-right: 0.313rem; /* 5px = 0.313rem */
     }
+
+    .main-home {        
+        position: absolute;
+        height: 418px;
+        top: 153px;
+        right: 170px;
+    }
+
 }

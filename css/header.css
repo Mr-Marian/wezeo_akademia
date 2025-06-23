@@ -1,4 +1,5 @@
 .topbar {
+    justify-content: center;
     height: 3.125rem;   /* 50px = 3.125rem */
 }
 
@@ -47,7 +48,6 @@ border-bottom: 1px solid var(--discord-border-color);
 /* Navbar */
 
 nav {
-    border: 2px solid black;
     display: flex;
     justify-content: left;
     padding: 0.5rem 0;  /* 8px = 0.5rem */
@@ -55,13 +55,13 @@ nav {
 }
 
 .navbar-brand {
-    border: 2px solid red;
     margin-right: 16px; /* 16px = 1rem */
     padding: 5px 0;    /* 5px = 0.313rem */
 }
 
 .navbar-collapse {
     display: flex;
+    justify-content: end;
 }
 
 .nav-item {

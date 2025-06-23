@@ -6,10 +6,13 @@
     --quinary-color: #f0f0f1;
     --button-border-color: #e3e4e6; 
     --text-color: #1a232f; 
+    --text-gray: #566b8d;
     --white-text-color: #fff;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
@@ -23,10 +26,9 @@ body::-webkit-scrollbar {
   }
 
 .container {  
-  border: 2px solid blue;
   display: flex;
   flex-wrap: inherit;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 1296px;
   height: 53px;
@@ -55,4 +57,13 @@ ul {
 li {
     list-style-type: none;
     min-width: fit-content;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.text-gray {
+  color: var(--text-gray);
 }

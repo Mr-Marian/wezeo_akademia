@@ -3,7 +3,7 @@
     background: #3597ff;
     height: 440px;
     width: 100%;
-    
+    margin-bottom: 3rem; /* 48px = 3rem */
 }
 
 
@@ -16,7 +16,6 @@
 
 
 .main-block {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     width: 526px;
@@ -29,6 +28,14 @@
 .main-heading {
     color: var(--white-text-color);
     font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.mine-p {
+    color: var(--white-text-color);
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 .main-home {
