@@ -1,0 +1,41 @@
+.third {
+    display: block;
+    height: 27.875rem !important; /* 446px */
+    width: 100% !important;
+    padding-top: 3rem !important; /* 48px */
+    padding-bottom: 3rem !important; /* 48px */
+}
+
+.section3-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem !important; /* 24px = 1.5rem */
+    padding-bottom: 1.5rem !important; /* 24px = 1.5rem */
+}
+
+.third-height {
+    height: 24.875rem !important; /* 398px */
+}
+
+.vision {
+    width: 39.75rem; /* 636px */
+    height: 16rem; /* 256px */
+    padding: 0 .75rem; /* 12px = 0.75rem */
+}
+
+.edu-data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40.25rem; /* 644px */
+    height: 24.875rem; /* 398px */
+    padding: 0 0.5rem; /* 8px = 0.5rem */
+}
+
+.data-box {
+    display: flex;
+    justify-content: center;
+    width: 11.563rem; /* 11.563rem = 185px */
+    height: 9.438rem; /* 9.438rem = 151px */ 
+    margin: .5rem 0; /* 8px = 0.5rem */
+    padding: 1rem 1.5rem; /* 16px = 1rem, 24px = 1.5rem */
+}

@@ -12,16 +12,8 @@
     padding-bottom: 1.5rem !important;
 }
 
-.justify-content-center {
-    justify-content: center !important;
+.second-height {
     height: 23.938rem; /* 383px = 23.938rem */
-}
-
-.row {
-    display: flex;
-    flex-direction: column;
-    margin-right: -0.75rem !important; /* 12px = 0.75rem */
-    margin-left: -0.75rem !important; /* 12px = 0.75rem */
 }
 
 .col-width-1 {
