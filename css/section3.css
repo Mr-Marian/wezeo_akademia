@@ -25,6 +25,7 @@
 
 .edu-data {
     display: flex;
+    justify-content: end;
     flex-wrap: wrap;
     width: 40.25rem; /* 644px */
     height: 24.875rem; /* 398px */
@@ -36,6 +37,24 @@
     justify-content: center;
     width: 11.563rem; /* 11.563rem = 185px */
     height: 9.438rem; /* 9.438rem = 151px */ 
-    margin: .5rem 0; /* 8px = 0.5rem */
+    margin: .5rem; /* 8px = 0.5rem */
     padding: 1rem 1.5rem; /* 16px = 1rem, 24px = 1.5rem */
+}
+
+.data-box{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.number-box {
+    font-size: 5.625rem; /* 5.625rem = 90px */
+    line-height: 1 !important;
+    margin: 0 0 0.35rem 0; /* 5px = 0.35rem */
+}
+
+.p-databox {
+    font-size: 1.125rem; /* 1.125rem = 18px */
+    height: 1.688rem; /* 1.688rem = 27px */
+    margin: 0;
 }

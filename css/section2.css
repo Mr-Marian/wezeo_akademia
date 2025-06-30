@@ -12,6 +12,10 @@
     padding-bottom: 1.5rem !important;
 }
 
+.flex-direction-column {
+    flex-direction: column;
+}
+
 .second-height {
     height: 23.938rem; /* 383px = 23.938rem */
 }
