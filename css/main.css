@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
   align-items: center;
   width: 1296px;
   margin: 0 auto;
-  padding: 0 0.75rem;    /* 12px */ 
+  padding: 0 12px;    /* 12px = 0.75rem */ 
 }
 
 a {
@@ -73,8 +73,8 @@ h1 {
 
 .row {
     display: flex;
-    margin-right: -0.75rem !important; /* 12px = 0.75rem */
-    margin-left: -0.75rem !important; /* 12px = 0.75rem */
+    margin-right: -12px !important; /* 12px = 0.75rem */
+    margin-left: -12px !important; /* 12px = 0.75rem */
 }
 
 .text-gray {
