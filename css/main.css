@@ -16,6 +16,8 @@
     --green-background: rgba(156, 238, 204, 0.4);
     --yellow-background: rgba(238, 226, 156, 0.4);
     --red-background: rgba(238, 156, 156, 0.4);
+    --arrow-color: #b8c0cf;
+    --shadow-color: #f7f8fa;
 }
 
 body {
@@ -36,7 +38,6 @@ body::-webkit-scrollbar {
 .container {  
   display: flex;
   flex-wrap: inherit;
-  
   align-items: center;
   width: 1296px;
   margin: 0 auto;
@@ -65,6 +66,11 @@ li {
 h1 {
   font-size: 40px;
   font-weight: 100;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .justify-content-center {
