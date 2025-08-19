@@ -1,6 +1,10 @@
 {
     "workbench.colorCustomizations": {
-        "theme.background": "#333"
+        "theme.background": "#282b42"
 
-    }
+    },
+    "css.validate": false,
+    "editor.quickSuggestions": {
+    "strings": true
+  }
 }

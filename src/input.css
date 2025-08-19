@@ -1,0 +1,33 @@
+@import 'main.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        @apply text-txt-600;
+    }
+
+    .nav-item {
+        @apply mr-4;
+    }
+
+    .nav-item:nth-child(2),
+    .nav-item:nth-child(3),{
+        @apply mb-4;
+    }
+
+    
+
+    .nav-link {
+        @apply tracking-wide text-sm font-semibold hover:text-main;
+    }
+
+    .btn {
+        @apply font-light;
+        @apply inline-block;
+        @apply px-5 py-3;
+        @apply bg-main rounded-md text-white;
+    }
+}
