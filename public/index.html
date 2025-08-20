@@ -29,18 +29,20 @@
                     <span class="navbar-toggler-icon"></span> 
                 </button>
                 -->
-                <ul class="flex mx-auto ml-12"> <!-- flex navbar-nav mx-auto ms-xl-5 me-xl-auto mb-xl-0 text-center -->
+
+                <ul class="flex mx-auto ml-12 items-baseline"> <!-- flex navbar-nav mx-auto ms-xl-5 me-xl-auto mb-xl-0 text-center -->
                     <li class="nav-item"> <!--  mb-3 mb-xl-0 me-xl-3 -->
                         <a class="nav-link" href="/">Úvod</a> <!-- nav-link active -->
                     </li>
-                    <li class="nav-item"> <!--  dropdown mb-3 me-xl-3 d-xl-flex align-items-center -->
+                    
+                    <li class="nav-item dropdown !items-center group relative">
                         <a class="nav-link flex items-center" href="/openlaby"> <!-- nav-link d-inline pe-0 -->
                             OpenLab
                             <svg class="ml-2 h-3 w-3 transform translate-y-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" />
                             </svg>
                         </a>
-                        <ul class="hidden" aria-labelledby="openlabyDropdown"> <!-- hidden dropdown-menu border-0 p-0 stay-open-mobile -->
+                        <ul class="hidden dropdown-menu" aria-labelledby="openlabyDropdown"> <!-- hidden  border-0 p-0 stay-open-mobile -->
                             <li class=""> <!-- mb-2 mb-xl-0 mt-3 mt-xl-0 -->
                                 <a class="nav-link" href="/hybridlab">HybridLab</a> <!-- dropdown-item -->
                             </li> 
@@ -52,14 +54,15 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item "> <!--  dropdown mb-3 me-xl-3 d-xl-flex align-items-center -->
+
+                    <li class="nav-item dropdown !items-center group relative">
                         <a class="nav-link flex items-center"> <!-- nav-link d-inline pe-0 disabled -->
                             Online hodiny
                             <svg class="ml-2 h-3 w-3 transform translate-y-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" />
                             </svg>
                         </a>                        
-                        <ul class="hidden" aria-labelledby="onlineHodinyDropdown"> <!-- hidden dropdown-menu border-0 p-0 -->
+                        <ul class="hidden dropdown-menu" aria-labelledby="onlineHodinyDropdown"> <!-- hidden  border-0 p-0 -->
                             <li class=""> <!-- mb-2 mb-xl-0 mt-3 mt-xl-0 -->
                                 <a class="nav-link" href="/gameslab-kurz">Hry</a> <!-- dropdown-item -->
                             </li>
@@ -68,6 +71,7 @@
                             </li>
                         </ul>
                     </li>
+
                     <li class="nav-item"> <!--  mb-3 mb-xl-0 me-xl-3 -->
                         <a class="nav-link" href="/pre-ucitelov">Pre učiteľov</a> <!-- nav-link -->
                     </li>
@@ -81,6 +85,7 @@
                         <a class="nav-link" href="/caste-otazky">Časté otázky</a> <!-- nav-link -->
                     </li>
                 </ul>
+
                 <a class="" href="/openlaby"> <!-- d-none d-xl-block -->
                     <button class="btn">Pridajte sa k nám</button> <!-- btn btn-primary -->
                 </a>
