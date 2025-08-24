@@ -637,6 +637,7 @@ body {
 
 .nav-link {
   padding: 0.5rem;
+  height: 37px;
 }
 
 .dropdown-menu {
@@ -654,11 +655,42 @@ body {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  width: 135px;
+  margin: 0px;
+  min-width: 160px;
   border-radius: 0.375rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   line-height: 2;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-clip: padding-box;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  clear: both;
+  display: block;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.dropdown-item:hover,
+    .dropdown-item:active {
+  --tw-text-opacity: 1;
+  color: rgb(53 151 255 / var(--tw-text-opacity, 1));
 }
 
 .btn {

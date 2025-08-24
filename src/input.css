@@ -25,16 +25,31 @@
     .nav-link {
         @apply tracking-wide text-sm font-semibold hover:text-main;
         @apply p-2;
+        @apply h-[37px];
     }
 
     .dopdown {
-        @apply relative
+        @apply relative;
     }
 
     .dropdown-menu {
         @apply hidden group-hover:block group-focus-within:block;
         @apply absolute top-full;
-        @apply bg-white rounded-md w-[135px] leading-loose;
+        @apply bg-white rounded-md min-w-40 py-1 m-0 leading-loose;
+        @apply text-base text-left;
+        @apply bg-clip-padding;
+        @apply z-[1000];
+    }
+
+    .dropdown-item {
+        @apply block w-full px-4 py-1 clear-both;
+        @apply text-sm font-semibold text-inherit;
+        @apply whitespace-nowrap bg-transparent border-0;
+    }
+
+    .dropdown-item:hover,
+    .dropdown-item:active {
+        @apply text-main;
     }
 
     .btn {
