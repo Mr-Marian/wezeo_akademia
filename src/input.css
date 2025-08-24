@@ -9,6 +9,10 @@
         @apply text-txt-600;
     }
 
+    .container-set {
+        @apply container mx-auto max-w-[1320px] flex items-center;
+    }
+
     .navbar {
         @apply h-20 py-2 flex items-center;
     }
