@@ -37,6 +37,9 @@ module.exports = {
       minWidth: {
         '40': '160px',
       },
+       screens: {
+        'my-1200': '1200px', // Pridáva vlastný breakpoint 'my-1200' na 1200px
+      },
     },
   },
   plugins: [
