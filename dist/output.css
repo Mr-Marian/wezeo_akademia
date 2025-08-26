@@ -1055,10 +1055,6 @@ span {
   .md\:block {
     display: block;
   }
-
-  .md\:overflow-hidden {
-    overflow: hidden;
-  }
 }
 
 @media (min-width: 1024px) {
