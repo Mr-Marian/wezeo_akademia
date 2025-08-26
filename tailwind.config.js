@@ -37,6 +37,9 @@ module.exports = {
       minWidth: {
         '40': '160px',
       },
+      fontSize: {
+        'fluid': 'calc(1.375rem + 1.5vw)',
+      },
        screens: {
         'my-1200': '1200px', // Pridáva vlastný breakpoint 'my-1200' na 1200px
       },
