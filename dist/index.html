@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Openlab.sk</title>
-    <link href="/output.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
 </head>
 <body>
         
     <header class="hidden xl:block"> 
         <div class="container-set justify-center h-[50px] px-3 border-b border-header">
-            <span class="mr-12 leading-none text-sm text-txt-600">Ak máš záujem študovať spolu s nami, sme tu pre teba…</span>
+            <span id="thinSpan" class="mr-12 leading-none text-sm">Ak máš záujem študovať spolu s nami, sme tu pre teba…</span>
             <a href="https://discord.com/invite/fjRmVdzXcU" rel="noopener noreferrer" target="_blank" class="flex items-center gap-1 leading-4.5 px-2.5 py-1.5 bg-my-bg-100 rounded-full text-[13px] text-txt-400 border border-button hover:text-txt-600">
                 OPENLAB COMMUNITY 
                 <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/discord.svg" alt="discord" > <!-- class="discord-logo" -->
@@ -108,9 +108,10 @@
     </nav>
     
     
-    <section class="bg-main relative mb-4 mb-md-5"> 
+    <section id="mainVisual" class="bg-main relative mb-4 mb-md-5"> 
         <div class="container-set"> 
             <div class="flex items-center"> 
+
                 <div class="z-10 lg:w-5/12 md:my-5 py-5">
                     <h1 class="text-white font-light mb-6">Inštitút stredoškolského odborného vzdelávania<br>
                         <br class="br">
@@ -118,13 +119,18 @@
                     </h1>
                     <p class="text-white">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p> <!-- class="mine-p" -->
                 </div>
+
+                <div class="z-10 col-image-wrapper d-lg-block">
+                    <figure class="overflow-hidden image-wrapper mb-0">
+                        <img class="img-fluid" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="students"> <!-- class="main-home" -->
+                    </figure>
+                </div>
+
+                <p>
+                    <img decoding="async" class="hidden lg:block main-visual-image" src="/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="">
+                </p> 
+
             </div>
-            <div class="z-10">
-                <figure class="overflow-hidden">
-                    <img  src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="students"> <!-- class="main-home" -->
-                </figure>
-            </div>    
-            
         </div>
         <div class="hidden md:block overflow-hidden absolute">
             <img  src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/o_letter.png" alt="shape">

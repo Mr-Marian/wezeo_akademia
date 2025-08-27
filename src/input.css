@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 @layer components {
+    
     body {
         @apply text-txt-600;
     }
@@ -21,6 +22,10 @@
 
     span {
         @apply font-bold;
+    }
+
+    #thinSpan {
+        @apply font-thin;
     }
 
     .container-set {
@@ -77,5 +82,25 @@
         @apply bg-main rounded-md text-white;
     }
 
+    /* Section 1 */
 
+    #mainVisual, 
+    .col-image-wrapper,
+    figure, img {
+        @apply !w-auto !h-auto max-w-full max-h-minus-header flex items-end;
+    }
+
+    #mainVisual, 
+    .image-wrapper {
+        @apply my-992:h-[360px] my-1200:h-[567px];
+        @apply my-992:object-cover;
+    }
+
+    .img-fluid {
+        @apply max-w-full h-auto;
+    }
+
+    .main-visual-image{
+        @apply w-auto h-[418px]
+    }
 }

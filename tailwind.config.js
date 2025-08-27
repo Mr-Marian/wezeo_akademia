@@ -1,8 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{html,js}", 
-    "./public/**/*.{html,js}",
+    "./dist/**/*.{html,js}",
   ],
   theme: {
     extend: {
@@ -34,6 +33,9 @@ module.exports = {
         'button': '#e3e4e6',
         'header': '#d7eaff',
       },
+      maxHeight: {
+        'minus-header': 'calc(100% - 57px)',
+      },
       minWidth: {
         '40': '160px',
       },
@@ -42,6 +44,7 @@ module.exports = {
       },
        screens: {
         'my-1200': '1200px', // Pridáva vlastný breakpoint 'my-1200' na 1200px
+        'my-992': '992px',   // Pridáva vlastný breakpoint 'my-992' na 992px
       },
     },
   },
