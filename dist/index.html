@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Openlab.sk</title>
-    <link href="./output.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
 </head>
 <body>
         
@@ -108,7 +108,7 @@
     </nav>
     
     
-    <section id="mainVisual" class="bg-main relative mb-4 mb-md-5"> 
+    <section id="mainVisual" class="bg-main relative mb-6 md:mb-12"> 
         <div class="container-set"> 
             <div class="flex items-center"> 
 
@@ -120,15 +120,17 @@
                     <p class="text-white">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p> <!-- class="mine-p" -->
                 </div>
 
-                <div class="z-10 col-image-wrapper d-lg-block">
-                    <figure class="overflow-hidden image-wrapper mb-0">
+                <div class="z-10 my-992:hidden">
+                    <figure class="image-wrapper mb-0">
                         <img class="img-fluid" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="students"> <!-- class="main-home" -->
                     </figure>
                 </div>
 
-                <p>
-                    <img decoding="async" class="hidden lg:block main-visual-image" src="/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="">
-                </p> 
+                <div class="z-10 hidden my-992:block">
+                    <figure class="image-wrapper mb-0">
+                        <img class="main-visual-image" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="students"> <!-- class="main-home" -->
+                    </figure>
+                </div> 
 
             </div>
         </div>

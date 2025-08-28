@@ -84,10 +84,14 @@
 
     /* Section 1 */
 
-    #mainVisual, 
+     #mainVisual, 
     .col-image-wrapper,
-    figure, img {
-        @apply !w-auto !h-auto max-w-full max-h-minus-header flex items-end;
+    figure {
+        @apply w-auto h-auto max-w-full max-h-minus-header flex items-end;
+    }
+    
+    #mainVisual .col-image-wrapper img {
+        @apply max-w-full h-auto;
     }
 
     #mainVisual, 
@@ -96,11 +100,7 @@
         @apply my-992:object-cover;
     }
 
-    .img-fluid {
-        @apply max-w-full h-auto;
-    }
-
     .main-visual-image{
-        @apply w-auto h-[418px]
+        @apply !w-auto !h-auto;
     }
 }

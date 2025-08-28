@@ -43,8 +43,8 @@ module.exports = {
         'fluid': 'calc(1.375rem + 1.5vw)',
       },
        screens: {
-        'my-1200': '1200px', // Pridáva vlastný breakpoint 'my-1200' na 1200px
-        'my-992': '992px',   // Pridáva vlastný breakpoint 'my-992' na 992px
+        'my-1200': '1200px', 
+        'my-992': '992px',   
       },
     },
   },
