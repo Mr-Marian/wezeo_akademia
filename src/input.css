@@ -4,13 +4,36 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer base {
     body {
         @apply text-txt-600;
+    } 
+
+    body::-webkit-scrollbar {
+    display: none; 
+  }
+
+  h1 {
+    @apply text-[38px] leading-tight;
+  }
+}
+
+@layer components {
+
+    .container-set {
+        @apply container mx-auto max-w-[1320px] px-3;
+    }
+
+    span {
+        @apply font-semibold;
+    }
+
+    .navbar {
+        @apply flex py-2 h-16;
     }
 
     .nav-item {
-        @apply mr-4 h-[53px];
+        @apply mr-4;
     }
 
     .nav-item:nth-child(2),
@@ -20,17 +43,28 @@
 
     .nav-link {
         @apply tracking-wide text-sm font-semibold hover:text-main;
-        @apply h-[37px] p-2;
+        @apply p-2;
     }
 
-    .dopdown {
-        @apply relative
+    .dropdown {
+        @apply relative;
     }
 
     .dropdown-menu {
         @apply hidden group-hover:block group-focus-within:block;
         @apply absolute top-full;
-        @apply bg-pink-200 rounded-md w-[135px] leading-loose;
+        @apply border-0 p-0;
+        @apply rounded-md w-[135px] bg-white leading-loose;
+    }
+
+    .dropdown-item {
+        @apply block w-full h-auto py-1 px-6 clear-both;
+        @apply font-normal text-inherit whitespace-nowrap bg-transparent;
+    }
+
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+        @apply text-main;
     }
 
     .btn {

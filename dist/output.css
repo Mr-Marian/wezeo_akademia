@@ -558,6 +558,20 @@ video {
   display: none;
 }
 
+body {
+  --tw-text-opacity: 1;
+  color: rgb(26 35 47 / var(--tw-text-opacity, 1));
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 1.25;
+}
+
 .container {
   width: 100%;
 }
@@ -592,14 +606,61 @@ video {
   }
 }
 
-body {
-  --tw-text-opacity: 1;
-  color: rgb(26 35 47 / var(--tw-text-opacity, 1));
+.container-set {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container-set {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-set {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-set {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-set {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container-set {
+    max-width: 1536px;
+  }
+}
+
+.container-set {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1320px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+span {
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+  height: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .nav-item {
   margin-right: 1rem;
-  height: 53px;
 }
 
 .nav-item:nth-child(2),
@@ -629,8 +690,11 @@ body {
 }
 
 .nav-link {
-  height: 37px;
   padding: 0.5rem;
+}
+
+.dropdown {
+  position: relative;
 }
 
 .dropdown-menu {
@@ -648,11 +712,34 @@ body {
 .dropdown-menu {
   position: absolute;
   top: 100%;
+  border-width: 0px;
+  padding: 0px;
   width: 135px;
   border-radius: 0.375rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(251 207 232 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   line-height: 2;
+}
+
+.dropdown-item {
+  clear: both;
+  display: block;
+  height: auto;
+  width: 100%;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  white-space: nowrap;
+  background-color: transparent;
+  font-weight: 400;
+  color: inherit;
+}
+
+.dropdown-item:hover,
+    .dropdown-item:focus {
+  --tw-text-opacity: 1;
+  color: rgb(53 151 255 / var(--tw-text-opacity, 1));
 }
 
 .btn {
@@ -675,6 +762,10 @@ body {
 
 .relative {
   position: relative;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .mx-5 {
@@ -728,6 +819,14 @@ body {
   margin-top: 0.75rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -744,12 +843,12 @@ body {
   height: 50px;
 }
 
-.h-\[53px\] {
-  height: 53px;
-}
-
 .w-3 {
   width: 0.75rem;
+}
+
+.w-\[526px\] {
+  width: 526px;
 }
 
 .max-w-\[1320px\] {
@@ -823,14 +922,14 @@ body {
   border-color: rgb(215 234 255 / var(--tw-border-opacity, 1));
 }
 
+.bg-main {
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 151 255 / var(--tw-bg-opacity, 1));
+}
+
 .bg-my-bg-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(240 240 241 / var(--tw-bg-opacity, 1));
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .p-0 {
@@ -852,9 +951,9 @@ body {
   padding-bottom: 0.375rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-5 {
@@ -871,8 +970,16 @@ body {
   padding-bottom: 0px;
 }
 
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
 .pe-0 {
   padding-inline-end: 0px;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -892,6 +999,10 @@ body {
   line-height: 1;
 }
 
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
 .text-txt-400 {
   --tw-text-opacity: 1;
   color: rgb(155 156 162 / var(--tw-text-opacity, 1));
@@ -902,9 +1013,27 @@ body {
   color: rgb(26 35 47 / var(--tw-text-opacity, 1));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-txt-600:hover {
   --tw-text-opacity: 1;
   color: rgb(26 35 47 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 768px) {
+  .md\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-5\/12 {
+    width: 41.666667%;
+  }
 }
 
 @media (min-width: 1280px) {

@@ -18,39 +18,38 @@
         </div>
     </header>
 
-    <nav class="navbar py-2 items-center"> 
-        <div class="container mx-auto max-w-[1320px] h-[53px] px-3 flex items-center justify-between"> <!-- items-center justify-between -->
+    <nav class="navbar"> 
+        <div class="container mx-auto max-w-[1320px] items-center justify-between px-3 flex">
             <a href="/" class="py-[5px] mr-4">
                 <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg" alt="logo" width="120" height="28">
             </a>
-            <div class="flex flex-grow items-center justify-end" id="navMenuContent"> <!-- collapse navbar-collapse navbar-nav-scroll bg-white -->
+            <div class="flex flex-grow items-center justify-end" id="navMenuContent">
                 <!--  
                 <button class="navbar-toggler d-xl-none align-self-end my-3 me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navMenuContent" aria-controls="navMenuContent" aria-expanded="false" aria-label="Toggle navigation"> 
                     <span class="navbar-toggler-icon"></span> 
                 </button>
                 -->
-
-                <ul class="flex mx-auto ml-12 items-baseline"> <!-- flex navbar-nav mx-auto ms-xl-5 me-xl-auto mb-xl-0 text-center -->
-                    <li class="nav-item"> <!--  mb-3 mb-xl-0 me-xl-3 -->
-                        <a class="nav-link" href="/">Úvod</a> <!-- nav-link active -->
+                <ul class="flex mx-auto ml-12 items-baseline">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Úvod</a>
                     </li>
                     
                     <li class="nav-item dropdown !items-center group relative">
-                        <a class="nav-link flex items-center" href="/openlaby"> <!-- nav-link d-inline pe-0 -->
+                        <a class="nav-link flex items-center" href="/openlaby">
                             OpenLab
                             <svg class="ml-2 h-3 w-3 transform translate-y-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" />
                             </svg>
                         </a>
-                        <ul class="hidden dropdown-menu" aria-labelledby="openlabyDropdown"> <!-- hidden  border-0 p-0 stay-open-mobile -->
-                            <li class=""> <!-- mb-2 mb-xl-0 mt-3 mt-xl-0 -->
-                                <a class="nav-link" href="/hybridlab">HybridLab</a> <!-- dropdown-item -->
+                        <ul class="hidden dropdown-menu" aria-labelledby="openlabyDropdown"> 
+                            <li class=""> 
+                                <a class="dropdown-item" href="/hybridlab">HybridLab</a>
                             </li> 
-                            <li class=""> <!-- mb-2 mb-xl-0 -->
-                                <a class="nav-link" href="/gameslab">GamesLab</a> <!-- dropdown-item -->
+                            <li class=""> 
+                                <a class="dropdown-item" href="/gameslab">GamesLab</a> 
                             </li>
-                            <li class=""> <!-- mb-xl-1 -->
-                                <a class="nav-link" href="/appslab">AppsLab</a> <!-- dropdown-item -->
+                            <li class="">
+                                <a class="dropdown-item" href="/appslab">AppsLab</a>
                             </li>
                         </ul>
                     </li>
@@ -64,10 +63,10 @@
                         </a>                        
                         <ul class="hidden dropdown-menu" aria-labelledby="onlineHodinyDropdown"> <!-- hidden  border-0 p-0 -->
                             <li class=""> <!-- mb-2 mb-xl-0 mt-3 mt-xl-0 -->
-                                <a class="nav-link" href="/gameslab-kurz">Hry</a> <!-- dropdown-item -->
+                                <a class="dropdown-item" href="/gameslab-kurz">Hry</a> <!-- dropdown-item -->
                             </li>
                             <li class=""> <!-- mb-xl-1 -->
-                                <a class="nav-link" href="/appslab-kurz">Aplikácie</a> <!-- dropdown-item pb-0 -->
+                                <a class="dropdown-item" href="/appslab-kurz">Aplikácie</a> <!-- dropdown-item pb-0 -->
                             </li>
                         </ul>
                     </li>
@@ -108,13 +107,18 @@
     </nav>
     
     
-    <section > <!-- class="first" -->
-        <div class="container mx-auto"> <!-- class="container section1-box" -->
-            <div > <!-- class="main-block" -->
-                <h1 >Inštitút stredoškolského odborného vzdelávania<br> <!-- class="main-heading" -->
-                    <span >zameraný na IT & AI</span> <!-- class="text-bold" -->
-                </h1>
-                <p >Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p> <!-- class="mine-p" -->
+    <section class="bg-main"> <!-- class="first" -->
+        <div class="container-set"> <!-- class="container section1-box" -->
+            <div class="items-center row"> 
+                <div class="z-10 lg:w-5/12 md:my-12 py-12 px-3 w-[526px]">
+                    <h1 class="text-white mb-11">Inštitút stredoškolského odborného vzdelávania<br> <!-- class="main-heading" -->
+                    <span class="">zameraný na IT & AI</span>
+                    </h1>
+                    <p class="text-white tracking-wider mb-4">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
+                </div>
+                <div></div>
+                <p></p>
+
             </div>
 
             <img  src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="students"> <!-- class="main-home" -->
