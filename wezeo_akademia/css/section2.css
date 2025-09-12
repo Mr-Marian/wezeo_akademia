@@ -1,0 +1,59 @@
+.second {
+    height: 431px; /* 431px = 26.938rem */
+    width: 100%;
+    padding: 3rem 0; /* 48px = 3rem */
+}
+
+.section2-box {
+    display: flex;
+    justify-content: center;
+    height: 383px; /* 383px = 23.938rem */
+    padding-top: 24px !important; /* 24px = 1.5rem */
+    padding-bottom: 24px !important; /* 24px = 1.5rem */
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.second-height {
+    height: 383px; /* 383px = 23.938rem */
+}
+
+.col-width-1 {
+    max-width: 81rem; /* 1296px = 81rem */
+    padding: 0 12px !important; /* 12px = 0.75rem */
+}
+
+.text-center {
+    text-align: center !important;
+    height: 184px; /* 184px = 11.5rem */
+}
+
+.h1why {
+    margin: 0;
+    margin-bottom: 3rem; /* 48px = 3rem */
+}
+
+.why {
+    width: 69rem; /* 1104px = 69rem */
+    margin: 0 48px 12px 48px; /* 48px = 3rem, 12px = 0.75rem */
+    padding: 0 24px; /* 24px = 1.5rem */
+    line-height: 1.5 !important;
+}
+
+.aside-box {
+    display: flex;
+    justify-content: center;
+    height: 184px; /* 184px = 11.5rem */
+}
+
+.col-witdth-3 {
+    width: 306px; /* 19.125rem = 306px */
+    height: 151px; /* 9.4375rem = 151px */
+    padding: 3rem 12px 0 12px; /* 48px = 3rem, 12px = 0.75rem */
+}
+
+.small {
+    font-size: 14px; /* 14px = 0.875rem */
+}
