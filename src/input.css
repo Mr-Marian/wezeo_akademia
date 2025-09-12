@@ -102,7 +102,7 @@
     }
 
     .main-visual-image {
-        @apply !h-auto !w-auto max-w-1/2 max-h-95p;
+        @apply !h-auto !w-auto max-w-[50%] max-h-95p;
     }
 }
 
