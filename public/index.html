@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Openlab.sk</title>
-    <link href="../dist/output.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
 </head>
 <body>
         
     <header class="hidden xl:block"> 
-        <div class="container mx-auto max-w-[1320px] flex justify-center items-center h-[50px] px-3 border-b border-header">
-            <span class="mr-12 leading-none text-sm text-txt-600">Ak máš záujem študovať spolu s nami, sme tu pre teba…</span>
+        <div class="container-set justify-center h-[50px] px-3 border-b border-header">
+            <span id="thinSpan" class="mr-12 leading-none text-sm">Ak máš záujem študovať spolu s nami, sme tu pre teba…</span>
             <a href="https://discord.com/invite/fjRmVdzXcU" rel="noopener noreferrer" target="_blank" class="flex items-center gap-1 leading-4.5 px-2.5 py-1.5 bg-my-bg-100 rounded-full text-[13px] text-txt-400 border border-button hover:text-txt-600">
                 OPENLAB COMMUNITY 
                 <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/discord.svg" alt="discord" > <!-- class="discord-logo" -->
@@ -18,8 +18,8 @@
         </div>
     </header>
 
-    <nav class="navbar"> 
-        <div class="container mx-auto max-w-[1320px] items-center justify-between px-3 flex">
+    <nav class="navbar "> 
+        <div class="container-set px-3 justify-between"> <!-- items-center justify-between -->
             <a href="/" class="py-[5px] mr-4">
                 <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg" alt="logo" width="120" height="28">
             </a>
@@ -41,15 +41,15 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" />
                             </svg>
                         </a>
-                        <ul class="hidden dropdown-menu" aria-labelledby="openlabyDropdown"> 
-                            <li class=""> 
-                                <a class="dropdown-item" href="/hybridlab">HybridLab</a>
+                        <ul class="hidden dropdown-menu" aria-labelledby="openlabyDropdown"> <!-- hidden  border-0 p-0 stay-open-mobile -->
+                            <li class=""> <!-- mb-2 mb-xl-0 mt-3 mt-xl-0 -->
+                                <a class="dropdown-item" href="/hybridlab">HybridLab</a> <!-- dropdown-item -->
                             </li> 
-                            <li class=""> 
-                                <a class="dropdown-item" href="/gameslab">GamesLab</a> 
+                            <li class=""> <!-- mb-2 mb-xl-0 -->
+                                <a class="dropdown-item" href="/gameslab">GamesLab</a> <!-- dropdown-item -->
                             </li>
-                            <li class="">
-                                <a class="dropdown-item" href="/appslab">AppsLab</a>
+                            <li class=""> <!-- mb-xl-1 -->
+                                <a class="dropdown-item" href="/appslab">AppsLab</a> <!-- dropdown-item -->
                             </li>
                         </ul>
                     </li>
@@ -132,7 +132,7 @@
     </section>
     
     <section > <!-- class="second" -->
-        <div class="container mx-auto"> <!-- class="container section2-box" -->
+        <div class="container-set"> <!-- class="container section2-box" -->
             <div > <!-- class="row justify-content-center second-height flex-direction-column" -->
                 <div > <!-- class="col-width-1 text-center z-index-1" -->
                     <h1 >Prečo <span class="text-bold">OpenLab?</span></h1> <!-- h1 = class="h1why" , span = class="text-bold" -->

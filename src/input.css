@@ -32,6 +32,32 @@
         @apply flex py-2 h-16;
     }
 
+    h1, h2, h3, h4, h5, h6 {
+        @apply mt-0 mb-2 font-medium leading-tight;
+    }
+
+    h1 {
+        @apply font-light mb-4; 
+        @apply my-1200:text-[40px];
+        @apply text-fluid;
+    }
+
+    span {
+        @apply font-bold;
+    }
+
+    #thinSpan {
+        @apply font-thin;
+    }
+
+    .container-set {
+        @apply container mx-auto max-w-[1320px] flex items-center;
+    }
+
+    .navbar {
+        @apply h-20 py-2 flex items-center;
+    }
+
     .nav-item {
         @apply mr-4;
     }
@@ -44,9 +70,10 @@
     .nav-link {
         @apply tracking-wide text-sm font-semibold hover:text-main;
         @apply p-2;
+        @apply h-[37px];
     }
 
-    .dropdown {
+    .dopdown {
         @apply relative;
     }
 

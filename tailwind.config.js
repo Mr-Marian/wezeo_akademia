@@ -1,8 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{html,js}", 
-    "./public/**/*.{html,js}",
+    "./dist/**/*.{html,js}",
   ],
   theme: {
     extend: {
@@ -36,6 +35,9 @@ module.exports = {
         'button': '#e3e4e6',
         'header': '#d7eaff',
       },
+      maxHeight: {
+        'minus-header': 'calc(100% - 57px)',
+      },
       minWidth: {
         '40': '160px',
       },
@@ -47,6 +49,12 @@ module.exports = {
       },
       height: {
         '418': '418px',
+      fontSize: {
+        'fluid': 'calc(1.375rem + 1.5vw)',
+      },
+       screens: {
+        'my-1200': '1200px', 
+        'my-992': '992px',   
       },
     },
   },
@@ -54,4 +62,4 @@ module.exports = {
     require('tailwind-scrollbar-hide'),
   ],
 }
-
+}
