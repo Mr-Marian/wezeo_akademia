@@ -31,35 +31,32 @@ module.exports = {
         },
         'arrow': '#b8c0cf',
         'shadow': '#f7f8fa',
-        //border colors
         'button': '#e3e4e6',
         'header': '#d7eaff',
       },
       maxHeight: {
         'minus-header': 'calc(100% - 57px)',
+        '95p': '95%',
       },
       minWidth: {
         '40': '160px',
-      },
-      maxHeight: {
-        '95p': '95%',
       },
       width: {
         '543': '543px',
       },
       height: {
         '418': '418px',
+      },
       fontSize: {
         'fluid': 'calc(1.375rem + 1.5vw)',
       },
-       screens: {
-        'my-1200': '1200px', 
-        'my-992': '992px',   
+      screens: {
+        'my-1200': '1200px',
+        'my-992': '992px',
       },
     },
   },
   plugins: [
     require('tailwind-scrollbar-hide'),
   ],
-}
-}
+};
