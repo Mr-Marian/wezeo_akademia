@@ -1,0 +1,60 @@
+.third {
+    display: block;
+    height: 446px !important; /* 446px = 27.875rem */
+    width: 100% !important;
+    padding-top: 3rem !important; /* 48px */
+    padding-bottom: 3rem !important; /* 48px */
+}
+
+.section3-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px !important; /* 24px = 1.5rem */
+    padding-bottom: 24px !important; /* 24px = 1.5rem */
+}
+
+.third-height {
+    height: 398px !important; /* 398px = 24.875rem */
+}
+
+.vision {
+    width: 636px; /* 636px = 39.75rem */
+    height: 16rem; /* 256px */
+    padding: 12px; /* 12px = 0.75rem */
+}
+
+.edu-data {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    width: 644px; /* 644px */
+    height: 398px; /* 398px */
+    padding: 0 8px; /* 8px = 0.5rem */
+}
+
+.data-box {
+    display: flex;
+    justify-content: center;
+    width: 185px; /* 11.563rem = 185px */
+    height: 151px; /* 9.438rem = 151px */ 
+    margin: 8px; /* 8px = 0.5rem */
+    padding: 1rem 24px; /* 16px = 1rem, 24px = 1.5rem */
+}
+
+.data-box{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.number-box {
+    font-size: 90px; /* 5.625rem = 90px */
+    line-height: 1 !important;
+    margin: 0 0 5px 0; /* 5px = 0.35rem */
+}
+
+.p-databox {
+    font-size: 18px; 
+    height: 27px; /* 1.688rem = 27px */
+    margin: 0;
+}

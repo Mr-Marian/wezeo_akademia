@@ -1,0 +1,119 @@
+@import 'main.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    
+    body {
+        @apply text-txt-600;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply mt-0 mb-2 font-medium leading-tight;
+    }
+
+    h1 {
+        @apply font-light mb-4; 
+        @apply my-1200:text-[40px];
+        @apply text-fluid;
+    }
+
+    span {
+        @apply font-bold;
+    }
+
+    #thinSpan {
+        @apply font-thin;
+    }
+
+    .container-set {
+        @apply container mx-auto max-w-[1320px] px-3 flex items-center;
+    }
+
+    .navbar {
+        @apply h-20 py-2 flex items-center;
+    }
+
+    .nav-item {
+        @apply mr-4;
+    }
+
+    .nav-item:nth-child(2),
+    .nav-item:nth-child(3) {
+        @apply mb-4 xl:me-3 xl:flex items-center;
+    }
+
+    .nav-link {
+        @apply tracking-wide text-sm font-semibold hover:text-main;
+        @apply p-2;
+        @apply h-[37px];
+    }
+
+    .dopdown {
+        @apply relative;
+    }
+
+    .dropdown-menu {
+        @apply hidden group-hover:block group-focus-within:block;
+        @apply absolute top-full;
+        @apply bg-white rounded-md min-w-40 py-1 m-0 leading-loose;
+        @apply text-base text-left;
+        @apply bg-clip-padding;
+        @apply z-[1000];
+    }
+
+    .dropdown-item {
+        @apply block w-full px-4 py-1 clear-both;
+        @apply text-sm font-semibold text-inherit;
+        @apply whitespace-nowrap bg-transparent border-0;
+    }
+
+    .dropdown-item:hover,
+    .dropdown-item:active {
+        @apply text-main;
+    }
+
+    .btn {
+        @apply font-light;
+        @apply inline-block;
+        @apply px-5 py-3;
+        @apply bg-main rounded-md text-white;
+    }
+
+    /* Section 1 */
+
+     #mainVisual, 
+    .col-image-wrapper,
+    figure {
+        @apply w-auto h-auto max-w-full max-h-minus-header flex items-end;
+    }
+    
+    #mainVisual .col-image-wrapper img {
+        @apply max-w-full h-auto;
+    }
+
+    #mainVisual, 
+    .image-wrapper {
+        /* @apply my-992:h-[360px] my-1200:h-[567px]; */
+        @apply my-992:object-cover;
+        @apply w-fit h-full
+    }
+
+    .main-visual-image{
+        @apply /* absolute */ left-1/2 bottom-0 !w-auto !h-auto max-w-[50%] max-h-[95%] z-50;
+    }
+
+    .img-fluid {
+        @apply h-auto w-full;
+    }
+
+    .my-992\:hidden {
+        @apply hidden lg:block;
+    }
+
+    .my-992\:block {
+        @apply lg:hidden;
+    }
+}

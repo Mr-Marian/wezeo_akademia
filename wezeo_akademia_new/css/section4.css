@@ -1,0 +1,82 @@
+.fourth {
+    height: 18rem; /* 288px */
+    width: 100%;
+    padding-top: 3rem; /* 48px */
+    padding-bottom: 3rem; /* 48px */
+}
+
+.section4-box {
+    height: 15rem; /* 240px */
+    padding-top: 24px; /* 24px = 1.5rem */
+    padding-bottom: 24px; /* 24px = 1.5rem */
+}
+
+.fourth-height {
+    display: flex;
+    align-items: center;
+    height: 15rem; /* 240px */
+}
+
+.labs {
+    display: flex;
+    height: 6rem; /* 96px */
+    padding: 0 12px; /* 12px = 0.75rem */
+}
+
+.h1labs {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.labs-block {
+    display: flex;
+    padding: 0 12px; /* 12px = 0.75rem */
+}
+
+.card {
+    width: 280px; /* 17.5rem */
+    border-radius: 4px;
+}
+
+.card:hover
+.card:active {
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.labs-block .card:nth-child(1),
+.labs-block .card:nth-child(2) {
+    margin-right: 8px; /* 8px = 0.5rem */
+}
+
+.card-body {
+    width: 184px; /* 11.5rem */
+    height: 168px; /* 10.5rem */
+    padding: 24px 3rem 3rem 3rem; /* 24px = 1.5rem, 3rem = 48px */
+}
+
+.h5-card-body {
+    height: 24px; /* 1.5rem = 24px */
+    margin: 0 0 8px 0; /* 8px = 0.5rem */
+}
+
+.p-card-body {
+    height: 6rem; /* 96px */
+    margin: 0 0 10px 0; /* 10px = 0.625rem */
+    font-size: 14px; /* 0.875rem = 14px */
+    font-weight: 100;
+}
+
+.arrow {
+    width: 21px; /* 1.3125rem = 21px */
+    height: 15px; /* 0.9375rem = 15px */
+    font-size: 24px; /* 1.5rem = 24px */
+    margin: 0;
+    margin-top: 32px;
+    color: var(--arrow-color);
+}
+
+.arrow:hover,
+.arrow:active {
+    color: var(--main-color);
+}
