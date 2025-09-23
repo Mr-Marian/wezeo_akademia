@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://openlab.wezeo.dev/wp-content/uploads/2022/02/cropped-Favicon.png">
     <title>Openlab.sk</title>
     <link href="output.css" rel="stylesheet">
 </head>
@@ -18,25 +19,24 @@
         </div>
     </header>
 
-    <nav class="navbar "> 
+    <nav class="navbar"> 
         <div class="container-set px-3 justify-between"> <!-- items-center justify-between -->
             <a href="/" class="py-[5px] mr-4">
                 <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg" alt="logo" width="120" height="28">
             </a>
-            <div class="flex flex-grow items-center justify-end" id="navMenuContent"> <!-- collapse navbar-collapse navbar-nav-scroll bg-white -->
+            <div class="flex flex-grow items-center justify-end" id="navMenuContent">
                 <!--  
                 <button class="navbar-toggler d-xl-none align-self-end my-3 me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navMenuContent" aria-controls="navMenuContent" aria-expanded="false" aria-label="Toggle navigation"> 
                     <span class="navbar-toggler-icon"></span> 
                 </button>
                 -->
-
-                <ul class="flex mx-auto ml-12 items-baseline"> <!-- flex navbar-nav mx-auto ms-xl-5 me-xl-auto mb-xl-0 text-center -->
-                    <li class="nav-item"> <!--  mb-3 mb-xl-0 me-xl-3 -->
-                        <a class="nav-link" href="/">Úvod</a> <!-- nav-link active -->
+                <ul class="flex mx-auto ml-12 items-baseline">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Úvod</a>
                     </li>
                     
                     <li class="nav-item dropdown !items-center group relative">
-                        <a class="nav-link flex items-center" href="/openlaby"> <!-- nav-link d-inline pe-0 -->
+                        <a class="nav-link flex items-center" href="/openlaby">
                             OpenLab
                             <svg class="ml-2 h-3 w-3 transform translate-y-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" />
@@ -108,38 +108,32 @@
     </nav>
     
     
-    <section id="mainVisual" class="bg-main relative mb-6 md:mb-12"> 
-        <div class="container-set"> 
-            <div class="flex items-center"> 
-
-                <div class="z-10 lg:w-5/12 md:my-5 py-5">
-                    <h1 class="text-white font-light mb-6">Inštitút stredoškolského odborného vzdelávania<br>
-                        <br class="br">
-                        <span class="text-bold">zameraný na IT & AI</span>
+    <section class="bg-main relative mb-12 md:mb-12">
+        <div class="container-set">
+            <div class="flex flex-wrap -mx-3 items-center"> 
+                <div class="z-10 lg:w-7/11 md:my-12 px-3 py-12 h-[328px]">
+                    <h1 class="mb-6">Inštitút stredoškolského odborného vzdelávania<br>
+                    <span class="">zameraný na IT & AI</span>
                     </h1>
-                    <p class="text-white">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p> <!-- class="mine-p" -->
+                    <p class="mb-4 tracking-wider">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
                 </div>
-
-                <div class="z-10 my-992:hidden">
-                    <figure class="image-wrapper mb-0">
-                        <img class="img-fluid" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="students"> <!-- class="main-home" -->
-                    </figure>
+                
+                <div >
+                    
                 </div>
-
-                <div class="z-10 hidden my-992:block">
-                    <figure class="image-wrapper mb-0">
-                        <img class="main-visual-image" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="students"> <!-- class="main-home" -->
-                    </figure>
-                </div> 
-
+                <p class="hidden lg:block mb-4 px-3">
+                    <img decoding="async" class="hidden lg:block main-visual-image" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="students">
+                </p>
+                
             </div>
-        </div>
-        <div class="hidden md:block overflow-hidden absolute">
-            <img  src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/o_letter.png" alt="shape">
+
+            
+                
+            <img class="absolute botom-0 right-[50%]" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/o_letter.png" alt="circle" width="482">
         </div>
     </section>
     
-    <section > <!-- class="second" -->
+    <section class="">
         <div class="container-set"> <!-- class="container section2-box" -->
             <div > <!-- class="row justify-content-center second-height flex-direction-column" -->
                 <div > <!-- class="col-width-1 text-center z-index-1" -->

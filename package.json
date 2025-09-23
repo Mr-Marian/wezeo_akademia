@@ -9,13 +9,14 @@
   },
   "scripts": {
     "dev:tailwind": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "dev:server": "live-server",
-    "dev": "npm-run-all -p dev:tailwind dev:server",
-    "build": "postcss src/input.css -o dist/output.css --env production",
+    "dev:server": "live-server dist/",
+    "copy:html": "cp public/index.html dist/index.html",
+    "watch:html": "nodemon --watch public/ --ext html --exec \"npm run copy:html\"",
+    "dev": "npm run copy:html && npm-run-all -p dev:tailwind dev:server watch:html",
+    "build": "npm-run-all copy:html build:css",
     "build:css": "postcss src/input.css -o dist/output.css",
-    "dev:css": "postcss src/input.css -o dist/output.css --watch",
-    "start": "live-server"
-  },
+    "start": "live-server dist/"
+},
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "chokidar-cli": "^3.0.0",
