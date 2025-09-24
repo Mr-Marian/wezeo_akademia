@@ -42,7 +42,7 @@
 
     h1 {
         @apply font-light mb-4; 
-        @apply mb-12 text-[40px];
+        @apply mb-12;
         @apply text-fluid;
     }
 
@@ -55,7 +55,7 @@
     }
 
     .container-set {
-        @apply container mx-auto flex items-center px-6 max-w-[1320px];
+        @apply container mx-auto flex items-center px-3 max-w-[1320px];
     }
 
     .navbar {
@@ -103,6 +103,18 @@
         @apply inline-block;
         @apply px-5 py-3;
         @apply bg-main rounded-md text-white;
+    }
+
+    .h1-main {
+        @apply text-[39px] font-normal;
+    }
+
+    .p-main-visual-image {
+        @apply mb-4 px-3 w-[1320px];
+    }
+
+    .shape {
+        @apply w-[482px] right-[-241px] bottom-[-240px];
     }
 }
 
