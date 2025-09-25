@@ -25,7 +25,7 @@
 @layer components {
 
     .container-set {
-        @apply container mx-auto max-w-[1320px] px-3;
+        @apply container mx-auto flex items-center justify-center px-3;
     }
 
     span {
@@ -52,10 +52,6 @@
 
     #thinSpan {
         @apply font-thin;
-    }
-
-    .container-set {
-        @apply container mx-auto flex items-center px-3 max-w-[1320px];
     }
 
     .navbar {
@@ -109,6 +105,22 @@
         @apply text-[39px] font-normal;
     }
 
+    #mainVisual, .col-img-wrapper {
+        @apply w-fit h-full;
+    }
+
+    #mainVisual, .col-img-wrapper, figure {
+        @apply w-full h-full flex items-end;
+    }
+
+    .img-wrapper {
+        @apply md:h-[360px] xl:h-[567px];
+    }
+
+    .img-fluid {
+        @apply max-w-full h-auto;
+    }
+
     .p-main-visual-image {
         @apply mb-4 px-3 w-[1320px];
     }
@@ -119,8 +131,25 @@
 }
 
 @media (min-width: 992px) {
+    .container-set {
+        @apply !max-w-[960px];
+    }
+
     .main-visual-image {
         @apply !h-auto !w-auto max-h-95p max-w-[50%];
         @apply absolute left-1/2 bottom-0 z-50;
     }
 }
+
+@media (min-width: 1200px) {
+    .container-set {
+        @apply !max-w-[1140px];
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-set {
+        @apply !max-w-[1320px];
+    }
+}
+

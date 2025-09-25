@@ -54,8 +54,11 @@ module.exports = {
         'fluid': 'calc(1.375rem + 1.5vw)',
       },
       screens: {
-        'my-1200': '1200px',
-        'my-992': '992px',
+        'my-xxl': '1356px',
+        'my-xl': '1200px',
+        'my-lg': '992px',
+        'my-md': '768px',
+        'my-sm': '576px'
       },
     },
   },
